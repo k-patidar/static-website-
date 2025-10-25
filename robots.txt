@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and private directories
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /database/
+Disallow: /pages/submit_inquiry.php
+
+# Allow important files
+Allow: /assets/
+Allow: /sitemap.xml
+Allow: /sitemap.php
+
+# Sitemap location
+Sitemap: http://localhost/digital-marketing-agency/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
